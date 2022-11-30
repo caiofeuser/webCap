@@ -16,7 +16,6 @@ function Activity(props) {
       })
   };
 
-
   const handlePut = () => {
     api.put(`activities/${props.id}/`,
       {
